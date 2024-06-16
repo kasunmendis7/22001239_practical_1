@@ -1,5 +1,3 @@
-import scala.io.StdIn.readLine;
-
 object Question4 {
   def main(args: Array[String]): Unit = {
     val coverPrice = 24.95
