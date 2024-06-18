@@ -1,10 +1,11 @@
-import scala.io.StdIn.readLine;
+object TemperatureConverter {
+  def main(args: Array[String]): Unit = {
+    val celsius = 35
+    val fahrenheit = calculateFahrenheit(celsius)
+    println(f"$celsius%.2f°C is equal to $fahrenheit%.2f°F")
+  }
 
-object Question2{
-    def main(args: Array[String]):Unit={
-        print("Enter the temperatur > ")
-        val temp = readLine().toDouble
-        val fht = 1.8000*temp + 32.00
-        println("Fahrenheit temperature = "+fht)
-    }
+  def calculateFahrenheit(celsius: Double): Double = {
+    celsius * 1.8000 + 32.00
+  }
 }
