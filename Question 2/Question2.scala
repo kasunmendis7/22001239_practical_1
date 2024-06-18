@@ -1,4 +1,4 @@
-object TemperatureConverter {
+object Question2 {
   def main(args: Array[String]): Unit = {
     val celsius = 35
     val fahrenheit = calculateFahrenheit(celsius)

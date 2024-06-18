@@ -1,4 +1,4 @@
-object SphereVolumeCalculator {
+object Question3 {
   def main(args: Array[String]): Unit = {
     val radius = 5
     val volume = calculateVolume(radius)
